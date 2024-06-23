@@ -1,0 +1,28 @@
+# Ignore Visual Studio directories
+.vs/
+x64/
+
+# Ignore IDE-specific directories
+.idea/
+
+# Ignore build directories
+bin/
+bin-int/
+cmake-build-debug/
+
+# Ignore user-specific files
+*.user
+
+# Ignore CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+*.sln
+*.vcxproj*
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+_builds/
+build/
+CMakeScripts/
